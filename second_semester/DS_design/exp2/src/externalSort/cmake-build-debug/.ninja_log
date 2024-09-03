@@ -1,0 +1,6 @@
+# ninja log v5
+2008	2280	7348860556610734	externalSort.exe	790692a19eca1119
+4	2004	7348860553841525	CMakeFiles/externalSort.dir/main.cpp.obj	4dcdfcb1c978869
+3	75	7344553354880653	CMakeFiles/externalSort.dir/externalSort.cpp.obj	8ec63f1bc1591b44
+3	751	7348866825248472	build.ninja	c20ffbb2e646f483
+32	2158	7348859020280186	CMakeFiles/externalSort.dir/LoserTree.cpp.obj	eb47a90080b204a7

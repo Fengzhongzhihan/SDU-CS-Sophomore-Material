@@ -1,0 +1,83 @@
+"D:\CLion 2023.1.1\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=D:/CLion 2023.1.1/bin/ninja/win/x64/ninja.exe" -G Ninja -S D:\BaiduSyncdisk\CLASSES\programming\codes\csp\practice -B D:\BaiduSyncdisk\CLASSES\programming\codes\csp\practice\cmake-build-debug
+-- Configuring done
+CMake Error at CMakeLists.txt:6 (add_executable):
+  Cannot find source file:
+
+    DailyPractice/21-round1/A/amazingTyper.cpp
+
+
+CMake Error at CMakeLists.txt:16 (add_executable):
+  Cannot find source file:
+
+    DailyPractice/22-round1/countNum.cpp
+
+
+CMake Error at CMakeLists.txt:17 (add_executable):
+  Cannot find source file:
+
+    DailyPractice/22-round1/pickStars.cpp
+
+
+CMake Error at CMakeLists.txt:18 (add_executable):
+  Cannot find source file:
+
+    DailyPractice/22-round1/pickStarsMatrix.cpp
+
+
+CMake Error at CMakeLists.txt:19 (add_executable):
+  Cannot find source file:
+
+    DailyPractice/21-round1/B/RGB.cpp
+
+
+CMake Error at CMakeLists.txt:20 (add_executable):
+  Cannot find source file:
+
+    DailyPractice/21-round1/B/pwStrong.cpp
+
+
+CMake Error at CMakeLists.txt:21 (add_executable):
+  Cannot find source file:
+
+    DailyPractice/21-round1/B/noddles.cpp
+
+
+CMake Error at CMakeLists.txt:38 (add_executable):
+  Cannot find source file:
+
+    DailyPractice/21-round1/B/noodlesAns.cpp
+
+
+CMake Error at CMakeLists.txt:6 (add_executable):
+  No SOURCES given to target: practice
+
+
+CMake Error at CMakeLists.txt:16 (add_executable):
+  No SOURCES given to target: countNum
+
+
+CMake Error at CMakeLists.txt:17 (add_executable):
+  No SOURCES given to target: pickStars
+
+
+CMake Error at CMakeLists.txt:18 (add_executable):
+  No SOURCES given to target: pickStarsMatrix
+
+
+CMake Error at CMakeLists.txt:19 (add_executable):
+  No SOURCES given to target: RGB
+
+
+CMake Error at CMakeLists.txt:20 (add_executable):
+  No SOURCES given to target: pwStrong
+
+
+CMake Error at CMakeLists.txt:21 (add_executable):
+  No SOURCES given to target: noddles
+
+
+CMake Error at CMakeLists.txt:38 (add_executable):
+  No SOURCES given to target: noodlesAns
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.

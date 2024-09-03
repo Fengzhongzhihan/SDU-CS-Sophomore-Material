@@ -1,0 +1,24 @@
+class Graph{
+public:
+    int n, m, pMax; // n个点, m条边, pMax最大压力
+    int e[N], h[N], ne[N], idx, w[N]; // 邻接表
+    int ans ;// 最终答案
+    int inDegree[N],topS[N];// 入度, 拓扑排序
+    int p[N]; int tmpP[N];// p[i]表示i点的压力, tmpP[i]表示i点的临时压力
+    double runTime;// 运行时间
+    void add(int a, int b, int c) ;// 添加边
+    Graph(int n, int m, int pMax) ;// 构造函数
+    Graph() {}
+    void init();
+    bool status[N]; // 放置状态
+    bool st[N]; // 选中状态
+    void topSort() ;// 拓扑排序
+    void solve1(int index);// 回溯法
+    void solve2(int index);// 分支定界法
+    void dfs1(int l, int cnt);// 回溯法
+    void branchBound();// 分支定界法
+    void visualize(int index);// 可视化
+    void readFile(string path);// 读取文件
+    bool compareFile(string path);// 比较文件
+    int mxSize = 0;// 最大堆的大小
+};

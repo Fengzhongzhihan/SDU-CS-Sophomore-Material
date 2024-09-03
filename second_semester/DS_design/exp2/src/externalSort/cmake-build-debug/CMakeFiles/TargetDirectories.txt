@@ -1,0 +1,3 @@
+C:/Users/Lenovo/CLionProjects/externalSort/cmake-build-debug/CMakeFiles/externalSort.dir
+C:/Users/Lenovo/CLionProjects/externalSort/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Lenovo/CLionProjects/externalSort/cmake-build-debug/CMakeFiles/rebuild_cache.dir

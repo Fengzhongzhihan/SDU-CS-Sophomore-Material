@@ -1,0 +1,33 @@
+a s savings1 0.02
+a c credit1 1000 0.015 50
+d 0 500 initial deposit for savings account
+d 1 200 initial deposit for credit account
+w 0 100 withdraw from savings account
+w 1 50 withdraw from credit account
+c 15
+d 0 300 deposit to savings account
+d 1 400 deposit to credit account
+w 0 200 withdraw from savings account
+w 1 100 withdraw from credit account
+n
+a s savings1 0.02
+a c credit1 1000 0.015 50
+d 0 500 initial deposit for savings account
+d 1 200 initial deposit for credit account
+w 0 100 withdraw from savings account
+w 1 50 withdraw from credit account
+c 15
+d 0 300 deposit to savings account
+d 1 400 deposit to credit account
+w 0 200 withdraw from savings account
+w 1 100 withdraw from credit account
+n
+a x invalidAccountType 0.05         // 非法的账户类型，应该是's'或'c'
+a s savings1 -0.01                 // 无效的利率，应该是非负数
+d 0 1000                           // 尝试向不存在的账户存款
+w 0 100                            // 尝试从不存在的账户取款
+c 32                               // 无效的日期，超出了当月最大天数
+c -1                               // 无效的日期，负数日期
+d 0 -500 deposit with negative     // 无效的存款金额，不能为负
+w 0 -100 withdraw with negative    // 无效的取款金额，不能为负
+n                                  // 在无账户时进入下一个月
