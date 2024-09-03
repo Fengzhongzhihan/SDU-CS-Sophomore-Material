@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "shell.h": "c",
+        "string.h": "c"
+    }
+}

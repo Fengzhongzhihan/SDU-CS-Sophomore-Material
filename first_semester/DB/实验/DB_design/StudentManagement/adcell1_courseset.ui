@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>adcell1_courseSet</class>
+ <widget class="QDialog" name="adcell1_courseSet">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>940</width>
+    <height>450</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_2">
+   <item row="0" column="0">
+    <widget class="QLabel" name="lib_title">
+     <property name="text">
+      <string>学生选课管理系统/管理员/开设课程管理</string>
+     </property>
+     <property name="name" stdset="0">
+      <string>title</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QWidget" name="tool" native="true">
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="1" column="4">
+       <widget class="QPushButton" name="btn_deltime">
+        <property name="text">
+         <string>删除时间编号</string>
+        </property>
+        <property name="name" stdset="0">
+         <string>btn</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="5">
+       <widget class="QPushButton" name="btn_courseSet">
+        <property name="text">
+         <string>开设课程</string>
+        </property>
+        <property name="name" stdset="0">
+         <string>btn</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QPushButton" name="btn_addtime">
+        <property name="text">
+         <string>增加时间编号</string>
+        </property>
+        <property name="name" stdset="0">
+         <string>btn</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="12" rowspan="2">
+       <widget class="QLineEdit" name="teacherInfo">
+        <property name="name" stdset="0">
+         <string>le</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="10" rowspan="2">
+       <widget class="QLineEdit" name="courSetInfo">
+        <property name="name" stdset="0">
+         <string>le</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="7">
+       <widget class="QPushButton" name="btn_updateCourseSet">
+        <property name="text">
+         <string>修改开设课程</string>
+        </property>
+        <property name="name" stdset="0">
+         <string>btn</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QPushButton" name="btn_searchtime">
+        <property name="text">
+         <string>显示时间编号</string>
+        </property>
+        <property name="name" stdset="0">
+         <string>btn</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="13" rowspan="2" colspan="2">
+       <spacer name="horizontalSpacer">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item row="1" column="14">
+       <widget class="QPushButton" name="btn_search">
+        <property name="text">
+         <string>搜索课程</string>
+        </property>
+        <property name="name" stdset="0">
+         <string>btn</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="16">
+       <widget class="QPushButton" name="btn_print">
+        <property name="text">
+         <string>打印屏幕信息</string>
+        </property>
+        <property name="name" stdset="0">
+         <string>btn</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="9" rowspan="2">
+       <widget class="QLabel" name="label">
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="text">
+         <string>课程名</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+        <property name="name" stdset="0">
+         <string>lb</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="11" rowspan="2">
+       <widget class="QLabel" name="label_4">
+        <property name="text">
+         <string>教师信息</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+        <property name="name" stdset="0">
+         <string>lb</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="15">
+       <widget class="QPushButton" name="btn_courseStudent">
+        <property name="text">
+         <string>显示选课学生</string>
+        </property>
+        <property name="name" stdset="0">
+         <string>btn</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="8">
+       <widget class="QPushButton" name="btn_delCourSet">
+        <property name="text">
+         <string>删除开设课程</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <widget class="QTableView" name="tableView">
+     <property name="name" stdset="0">
+      <string>table</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>C:/Users/Lenovo/Desktop/DaMingPool.jpg</file>
+        <file>C:/Users/Lenovo/Desktop/logo.ico</file>
+    </qresource>
+</RCC>

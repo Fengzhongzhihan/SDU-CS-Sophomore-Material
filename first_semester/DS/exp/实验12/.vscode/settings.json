@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "ostream": "cpp",
+        "iostream": "cpp",
+        "cstring": "cpp",
+        "new": "cpp"
+    }
+}
